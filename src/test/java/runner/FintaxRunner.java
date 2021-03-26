@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 			features = "src/test/resources",
 			glue = {"stepDefinitions"},
-			tags = {"@Hyperlink"}
+			tags = {"@Calculation"}
 		)
 public class FintaxRunner {
 

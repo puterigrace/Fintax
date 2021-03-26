@@ -17,7 +17,7 @@ public class FintaxGlue {
 	
 	@Given("User navigate to the site url")
 	public void user_navigate_to_the_site_url() {
-		System.setProperty("webdriver.chrome.driver","D://PRA-KERJA//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src//test//webdriver//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
